@@ -1,16 +1,59 @@
-# React + Vite
+# Assignment - CreativeStudio React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive React web application built based on the provided Figma design.
 
-Currently, two official plugins are available:
+## 📋 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project converts a Figma design into a functional, responsive React application with clean code and strong UI understanding.
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[View Live Application](https://your-vercel-link-here.vercel.app) *(Update this after deployment)*
 
-## Expanding the ESLint configuration
+## ✨ Features Implemented
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ **Complete Figma design conversion** - All sections from the design
+- ✅ **Fully responsive layout** - Optimized for mobile, tablet, and desktop
+- ✅ **Modern React components** - Clean, reusable, and structured code
+- ✅ **Smooth navigation** - Scroll-based section navigation
+- ✅ **Interactive hover states** - Card animations and button effects
+- ✅ **Newsletter subscription form** - With success message feedback
+- ✅ **Mobile-friendly hamburger menu** - For smaller screen sizes
+
+## 🛠️ Tech Stack
+
+- **React** - UI Library
+- **Vite** - Build tool and development server
+- **CSS3** - Custom styling with CSS variables
+- **Git** - Version control
+
+## 📱 Responsive Breakpoints
+
+- **Desktop:** > 968px
+- **Tablet:** 768px - 968px  
+- **Mobile:** < 768px
+
+## 🎯 Sections Included
+
+1. **Hero Section** - Main headline with CTA button
+2. **Services Section** - 4 service cards with hover effects
+3. **Newsletter Section** - Email subscription form
+4. **Navigation Bar** - Fixed header with smooth scroll
+5. **Footer** - Links and copyright information
+
+## 🏃‍♂️ How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/portfolio-assignment.git
+
+# Navigate to project directory
+cd portfolio-assignment
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Open browser at http://localhost:5173
